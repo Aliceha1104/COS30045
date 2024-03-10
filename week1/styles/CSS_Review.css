@@ -1,0 +1,40 @@
+/*
+filename: Phuong Doanh Ha
+author: Phuong Doanh Ha
+description: HTML_CSS_REVIEW
+*/
+
+* {
+     font-family: calabri, sans-serif;
+     color: #2e546f;
+}
+
+h1 {
+    color: rgb(192, 0, 74);
+    font-size: 2em;
+    font-weight: bold;
+}
+button {
+    cursor:pointer;
+}
+#button1 {background-color: greenyellow;}
+#button2 {background-color: yellow;}
+#button3 {background-color: orange;}
+
+.img-container {
+    text-align: center;
+    position: relative;
+}
+
+.img-container img {
+    max-width: 200%;
+    max-height: 300px;
+}
+
+.img-container span {
+    position: absolute;
+    top: 5px;
+    width: 20px; 
+    cursor: pointer;
+      
+}
